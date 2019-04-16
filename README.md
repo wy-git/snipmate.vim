@@ -1,8 +1,9 @@
-# snipmate.vim
-Run .sh file
+# Usage
 
-add one line in your .vimrc:
+- Copy the folder snipmate to ~/.vim/
+
+- add one line in your .vimrc:
 
 ~~~~
-:source snipvim
+:source ~/.vim/snipmate/.snipvim
 ~~~~
