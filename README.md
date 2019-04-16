@@ -5,5 +5,5 @@
 - add one line in your .vimrc:
 
 ~~~~
-:source ~/.vim/snipmate.vim/snipmate/.snipvim
+:source ~/.vim/snipmate.vim/.snipvim
 ~~~~
