@@ -1,9 +1,9 @@
 # Usage
 
-- Copy the folder snipmate to ~/.vim/
+- Copy the folder snipmate.vim to ~/.vim/
 
 - add one line in your .vimrc:
 
 ~~~~
-:source ~/.vim/snipmate/.snipvim
+:source ~/.vim/snipmate.vim/snipmate/.snipvim
 ~~~~
