@@ -1,6 +1,6 @@
 filetype plugin on
+filetype detect
 syntax on
-:helptags ~/.vim/snipmate/doc
 set runtimepath^=~/.vim/snipmate
 set runtimepath^=~/.vim/snipmate/after
 set runtimepath^=~/.vim/snipmate/snippets
