@@ -1,9 +1,22 @@
-snippet braket
-	\langle ${1:x}|${2}\rangle
+snippet foo
+	${1:}bar$1
+snippet braket 
+	\langle ${1}|${2}\rangle${3}
 snippet bra
-	\langle ${1:x}|
+	\langle ${1}|${2}
 snippet ket
-	|${1:\psi}\rangle
-
-snippet b
-	$\textbf{${1}}$
+	|${1}\rangle${2}
+snippet hat
+	\hat{${1}}${2}
+snippet partial
+	\partial_{${1}}${2}
+snippet diffn
+	\frac{\text{d}^{${1:n}} ${2}}{\text{d}{${3:x}}^{$1}}${4}
+snippet partialn
+	\frac{\partial^{${1:n}}${2}}{\partial{${3:x}}^{$1}}${4}
+snippet sum
+	\sum_{${1}}^{${2}}${3} 
+snippet matrix22
+	\begin{bmatrix} ${1}&${2}\\${3}&${4}\\  \end{bmatrix}${5}
+snippet matrix33
+	\begin{bmatrix} ${1}&${2}&${3:\dots}\\${4}&${5}&${6:\dots}\\${7:\vdots}&${8:\vdots}&${9:\ddots} \\ \end{bmatrix}${10}
